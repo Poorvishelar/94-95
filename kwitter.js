@@ -17,6 +17,5 @@ function addUser() {
     firebase.database().ref("/").child(user_name).update({
         purpose: "Adding user"
     });
-
     window.location = "kwitter_room.html";
 }
