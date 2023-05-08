@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Let's chat web app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Fira+Sans:ital@1&family=Oleo+Script+Swash+Caps:wght@700&family=PT+Sans+Narrow&family=Road+Rage&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/kwitter.css">
+    <script src="kwitter.js"></script>
+</head>
+
+<body background="74908-girl-chatting-with-online-friends.gif">
+    <div class="container">
+
+        <button id="logout_button" class="btn btn-primary" onclick="logOut()"
+            style="width: 200px; height: 20px;">Logout</button>
+
+        <br>
+        <br>
+        <center>
+
+            <h1>Kwitter</h1>
+            <h3 id="name_user"></h3>
+            <br>
+            <br>
+            <input type="text" id="room_name" class="form-control" placeholder="# Room name"
+                style="width: 300px; height: 30px;">
+            <br>
+
+            <button id="add_room__button" class="btn btn-primary" onclick="roomName()"
+                style="width: 200px; height: 20px;">Room Name</button>
+
+            <div id="room_names" class="form-group"></div>
+        </center>
+    </div>
+
+</body>
+
+</html>

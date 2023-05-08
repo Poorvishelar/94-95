@@ -1,0 +1,17 @@
+#login_button {
+    width: 80%;
+    border-radius: 15px;
+}
+
+#logout_button {
+    font-size: 20px;
+    float: right;
+}
+
+
+#room_names {
+    padding: 10px;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+}
